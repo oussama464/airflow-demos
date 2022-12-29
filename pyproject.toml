@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "another_project"
+version = "0.1.0"
+description = ""
+authors = ["oussama464 <oussama.missaoui201@gmail.com>"]
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.2"
+numpy = "^1.24.1"
+pytest = "^7.2.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
